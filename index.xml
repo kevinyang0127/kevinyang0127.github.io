@@ -13,44 +13,41 @@
       <pubDate>Tue, 27 Apr 2021 23:55:50 +0800</pubDate>
       
       <guid>https://kevinyang0127.github.io/about/about/</guid>
-      <description>adsacaszxczcz ascascsacas csaascac acsacsacascac ascascsacsa</description>
+      <description></description>
     </item>
     
     <item>
-      <title>information</title>
-      <link>https://kevinyang0127.github.io/contact/information/</link>
+      <title>Contact me</title>
+      <link>https://kevinyang0127.github.io/contact/contact/</link>
       <pubDate>Tue, 27 Apr 2021 23:55:50 +0800</pubDate>
       
-      <guid>https://kevinyang0127.github.io/contact/information/</guid>
-      <description>安安安安安安安安安安安安安安安
-安安安安安安安安安安安安
-安安安安安安安安安安安安
-安安安安安安安安安
-安安安安安安安安安
-安安安安安安</description>
+      <guid>https://kevinyang0127.github.io/contact/contact/</guid>
+      <description>Phone : 0917-985-601
+Email : kevinyang0127@gmail.com</description>
     </item>
     
     <item>
-      <title>Introduction</title>
-      <link>https://kevinyang0127.github.io/projects/introduction/</link>
+      <title>project</title>
+      <link>https://kevinyang0127.github.io/projects/project/</link>
       <pubDate>Tue, 27 Apr 2021 23:55:50 +0800</pubDate>
       
-      <guid>https://kevinyang0127.github.io/projects/introduction/</guid>
-      <description>adsacaszxczcz ascascsacas csaascac acsacsacascac ascascsacsa</description>
+      <guid>https://kevinyang0127.github.io/projects/project/</guid>
+      <description>Coming Soon</description>
     </item>
     
     <item>
-      <title>My_first_post</title>
-      <link>https://kevinyang0127.github.io/posts/my_first_post/</link>
+      <title>摩爾投票演算法( Boyer-Moore Voting Algorithm )</title>
+      <link>https://kevinyang0127.github.io/posts/%E6%91%A9%E7%88%BE%E6%8A%95%E7%A5%A8%E6%BC%94%E7%AE%97%E6%B3%95/</link>
       <pubDate>Tue, 27 Apr 2021 22:32:29 +0800</pubDate>
       
-      <guid>https://kevinyang0127.github.io/posts/my_first_post/</guid>
-      <description>777777777777777777
-adas1da21fa
-a321fda2
-哈哈哈哈哈
-程式碼是放在 themes 底下
-// Set current package. package main // Import some package. import &amp;#34;fmt&amp;#34; // Enter main function. func main() { // Print out string `&amp;#34;Hello World&amp;#34;` on stand output. 	fmt.Println(&amp;#34;Hello World&amp;#34;) } </description>
+      <guid>https://kevinyang0127.github.io/posts/%E6%91%A9%E7%88%BE%E6%8A%95%E7%A5%A8%E6%BC%94%E7%AE%97%E6%B3%95/</guid>
+      <description>在一投票結果中，若已知有一人A獲得超過半數的票，則任意移除兩個投給不同候選人的選票則不會影響超過半數的A (A還是會超過半數)
+EX: 若有三位候選人A、B、C，投票人數有10位，票數為A : 6票、B : 1票、C : 3票，不論如何移除任意兩位候選人的票數都無法使得A的票數低於一半
+ leetcode 169. Majority Element
+說明:
+給定了一個長度為n的陣列， 已知當中有一個majority element(佔大多數的元素)， 這個數的個數會多過於 n/2 ， 求出該數字。
+func majorityElement(nums []int) int { result := nums[0] count := 0 for _, num := range nums { if num == result { count++ } else if count &amp;gt; 0 { count-- } else { result = num count++ } } return result } 直觀的用hashmap的解法:
+func majorityElement(nums []int) int { majorityTimes := (len(nums) + 1) / 2 elementMap := make(map[int]int) for _, num := range nums { elementMap[num]++ if elementMap[num] &amp;gt;= majorityTimes { return num } } return -1 } </description>
     </item>
     
   </channel>
